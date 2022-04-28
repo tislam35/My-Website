@@ -1,0 +1,141 @@
+.projectsContainer {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.projectNav {
+    cursor: pointer;
+    margin: 0 5px 0 5px;
+    appearance: none;
+    background-color: rgb(255, 255, 255);
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.projectNav:checked {
+    background-color: rgb(155, 155, 155);
+}
+
+#projectNavMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-bottom: 1%;
+}
+
+#projects {
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(100, 100, 100);
+}
+
+#projectInfo {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(200, 200, 200);
+}
+
+#projectName {
+    font-size: xx-large;
+}
+
+#projectDescription {
+    padding: 2%;
+    max-width: 50%;
+}
+
+#projectImgContainer {
+    display: flex;
+    background-color: rgb(155, 155, 155);
+    width: 60%;
+    height: 90%;
+    margin: 0 8% 0 8%;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#right,
+#left {
+    border-right: 3px solid;
+    border-bottom: 3px solid;
+    height: 30px;
+    width: 30px;
+}
+
+#right {
+    transform: rotate(-45deg);
+}
+
+#left {
+    transform: rotate(135deg);
+}
+
+#leftButton,
+#rightButton {
+    background-color: rgb(100, 100, 100);
+    border: unset;
+}
+
+#leftButton:hover,
+#rightButton:hover {
+    background-color: rgb(85, 85, 85);
+}
+
+#leftButton {
+    padding: 15px 0 15px 15px;
+    cursor: pointer;
+}
+
+#rightButton {
+    padding: 15px 15px 15px 0;
+    cursor: pointer;
+}
+
+@media (max-width: 1275px) {
+    #projects {
+        height: 400px;
+    }
+}
+
+@media (max-width: 975px) {
+    #projects {
+        height: 300px;
+    }
+
+    #projectDescription {
+        max-width: 80%;
+    }
+
+    #projectNavMenu {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-bottom: 1%;
+    }
+}
+
+@media (max-width: 650px) {
+    #projects {
+        height: 200px;
+    }
+}

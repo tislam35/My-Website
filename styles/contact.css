@@ -1,0 +1,59 @@
+.contactContainer {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(200 200 200);
+}
+
+.contactCard {
+    margin: 4%;
+}
+
+.contactName {
+    border-bottom: 1px solid;
+    margin-bottom: 5px;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contactLink {
+    font-weight: 100;
+    font-style: oblique;
+    align-self: center;
+}
+
+.contactButton {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(255,255,255);
+    border-style: solid;
+    border-color: rgb(0,0,0);
+    border-width: 1px;
+    align-self: center;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.contactButton:hover {
+    background-color: rgb(240,240,240);
+}
+
+@media (max-width: 600px) {
+    .contactName {
+        font-size: large;
+    }
+
+    .contactLink {
+        font-size: large;
+    }
+    
+    .contactButton {
+        width: 30px;
+        height: 30px;
+    }
+}
