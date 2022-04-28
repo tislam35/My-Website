@@ -137,7 +137,7 @@ function ProjectsSection() {
         text text text text text text text text text text text text text text text text text text text text text text text text text\
         text text text text text text text text text text text text text text text text text text text text text text text text text",
             source: "/images/inProgress.png",
-            url: "https://github.com/Rav91/Clock-Wisdom"
+            url: "https://github.com/tislam35/My-Website"
         }
     );
 
