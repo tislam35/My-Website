@@ -47,6 +47,7 @@
     #textContainer {
         max-width: none;
         min-width: none;
+        padding: 10%;
     }
 }
 
