@@ -50,54 +50,29 @@ function AboutSection() {
             </div>
             <div id="textContainer">
                 <h2 id="title">About Me</h2><br></br>
-                <p id="summary">
-                    text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                    text text text text text text text text text text text text text text text text text text text text text text text text text
-                </p>
+                <h4 className="summary">
+                    Hello! My name is Tohidul Islam and I am a software engineer with a bachelor's of science in Computer Science.
+                    I graduated from The City College of New York in 2022 but have been programming since my sophomore year of 
+                    high school back in 2014. I love learning about new technologies and skills whenever possible in order to
+                    ensure that my work is efficient. I also value making organized and readable code so that my work can be easily
+                    followed and seamlessly implemented by others.
+                </h4>
+                <h4 className="summary">
+                    My passion for programming has driven me to constantly work on projects that expand on my technical skills.
+                    Some of the programming languages that I am proficient in are Java, Python, JavaScript, C++, and SQL, but I am always 
+                    looking to learn new languages when possible. Whenever I encounter something new or unfamiliar I make it my goal
+                    to learn about and understand the task at hand in order to minimize mistakes and errors.
+                </h4>
+                <h4 className="summary">
+                    Recently I have also developed a strong interest in data science. Many of my past academic courses and projects have revolved around 
+                    mathematical optimization, modelling complex systems, and numerical computations which opened my eyes to the importance of being 
+                    able to analyze data for trends and predictions in any environment. Now I enjoy analyzing and modelling data in any project that I
+                    work on for the potential of optimization and efficiency.
+                </h4>
+                <h4 className="summary">
+                    When I'm not coding, analyzing data, or learning new technical skills in my free time, I like to unwind by playing video games with
+                    friends or going to the gym. When an opportunity presents itself I also love watching nature documentaries and sci-fi shows.
+                </h4>
             </div>
         </div>
     )

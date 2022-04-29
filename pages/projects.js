@@ -11,17 +11,7 @@ function ProjectsSection() {
     projects.push(
         {
             projectName: "Clock Wisdom",
-            description: "text text text text text text text text text text text text text text text text text text text text text text text text \
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text",
+            description: "This web-app was designed using ...",
             source: "/images/inProgress.png",
             url: "https://github.com/Rav91/Clock-Wisdom"
         }
@@ -30,17 +20,7 @@ function ProjectsSection() {
     projects.push(
         {
             projectName: "Team Me",
-            description: "2 text text text text text text text text text text text text text text text text text text text text text text text \
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text",
+            description: "This desktop application was developed using ...",
             source: "/images/inProgress.png",
             url: "https://github.com/tislam35/TeamMe"
         }
@@ -49,17 +29,7 @@ function ProjectsSection() {
     projects.push(
         {
             projectName: "Currency Converter",
-            description: "3 text text text text text text text text text text text text text text text text text text text text text text text \
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text",
+            description: "This android application was developed using ...",
             source: "/images/inProgress.png",
             url: "https://github.com/tislam35/Currency_Converter"
         }
@@ -68,17 +38,7 @@ function ProjectsSection() {
     projects.push(
         {
             projectName: "Galactic Conquest",
-            description: "4 text text text text text text text text text text text text text text text text text text text text text text text \
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text",
+            description: "This game was developed using ...",
             source: "/images/inProgress.png",
             url: "https://github.com/tislam35/Simple_Java_Game"
         }
@@ -87,17 +47,7 @@ function ProjectsSection() {
     projects.push(
         {
             projectName: "Air Quality Visualization",
-            description: "5 text text text text text text text text text text text text text text text text text text text text text text text \
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text",
+            description: "This project models the progression of air pollution throughout New York using ...",
             source: "/images/inProgress.png",
             url: "https://github.com/tislam35/Human-Perception-Project"
         }
@@ -106,17 +56,8 @@ function ProjectsSection() {
     projects.push(
         {
             projectName: "Climate Change Solutions",
-            description: "6 text text text text text text text text text text text text text text text text text text text text text text text \
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text",
+            description: "This project models the ARIMA based forecast of air pollution and offers several solutions with\
+                        models visualizing the effectiveness of each ...",
             source: "/images/inProgress.png",
             url: "https://github.com/tislam35/Climate_Change_Solutions"
         }
@@ -125,17 +66,7 @@ function ProjectsSection() {
     projects.push(
         {
             projectName: "This Website!",
-            description: "7 text text text text text text text text text text text text text text text text text text text text text text text \
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text\
-        text text text text text text text text text text text text text text text text text text text text text text text text text",
+            description: "I developed this website using React, NextJS, JavaScript, HTML, and CSS ...",
             source: "/images/inProgress.png",
             url: "https://github.com/tislam35/My-Website"
         }

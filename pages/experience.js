@@ -11,9 +11,7 @@ function ExperienceSection() {
                 <h3 className="entryPosition">Software Engineer</h3>
                 <h4 className="entryDateMobile">October 2021 - Present</h4>
                 <p className="entryDescription">
-                    As a software engineer at this company I designed the backend database following normalization rules to
-                    ensure efficiency. I also developed the APIs used to access and manipulate the data from the database and
-                    implemented them in the frontend.
+                    As a software engineer at Profit Decoder I ...
                 </p>
             </div>
             <div className="entry right">
@@ -24,11 +22,7 @@ function ExperienceSection() {
                 <h3 className="entryPosition">Tech Management Intern</h3>
                 <h4 className="entryDateMobile">June 2021 - August 2021</h4>
                 <p className="entryDescription">
-                    As a software engineer at this company I designed the backend database following normalization rules to
-                    ensure efficiency. I also developed the APIs used to access and manipulate the data from the database and
-                    implemented them in the frontend. As a software engineer at this company I designed the backend database following normalization rules to
-                    ensure efficiency. I also developed the APIs used to access and manipulate the data from the database and
-                    implemented them in the frontend.
+                    As a tech management intern at Mott Haven Fridge I ...
                 </p>
             </div>
             <div className="entry left">
@@ -39,9 +33,7 @@ function ExperienceSection() {
                 <h3 className="entryPosition">Youth Worker</h3>
                 <h4 className="entryDateMobile">June 2018 - August 2018</h4>
                 <p className="entryDescription">
-                    As a software engineer at this company I designed the backend database following normalization rules to
-                    ensure efficiency. I also developed the APIs used to access and manipulate the data from the database and
-                    implemented them in the frontend.
+                    As a youth worker at the sunnyside community service beacon program at I.S.5 I ...
                 </p>
             </div>
             <div className="entry right">
@@ -52,9 +44,7 @@ function ExperienceSection() {
                 <h3 className="entryPosition">Tutor & Mentor</h3>
                 <h4 className="entryDateMobile">September 2015 - June 2017</h4>
                 <p className="entryDescription">
-                    As a software engineer at this company I designed the backend database following normalization rules to
-                    ensure efficiency. I also developed the APIs used to access and manipulate the data from the database and
-                    implemented them in the frontend.
+                    As a tutor at the daycare program in the New Life Fellowship church I ...
                 </p>
             </div>
         </div>

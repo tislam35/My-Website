@@ -2,6 +2,15 @@
     flex: 1 1 auto;
     display: flex;
     flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    line-height: 25px;
 }
 
 #imageContainer {
@@ -21,12 +30,6 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 5%;
-}
-
-#summary {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 @media (max-width: 1400px) {

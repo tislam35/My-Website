@@ -167,4 +167,8 @@
         top: calc(50% - 7px);
         border-radius: 10%;
     }
+
+    .entryCompany {
+        font-size: 22px;
+    }
 }

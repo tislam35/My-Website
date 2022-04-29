@@ -55,12 +55,16 @@
 }
 
 #projectName {
-    font-size: xx-large;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 
 #projectDescription {
     padding: 2%;
     max-width: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 #projectImgContainer {
