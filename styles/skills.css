@@ -57,6 +57,7 @@
 @media (max-width: 1200px) {
     .grid {
         grid-template-columns: auto auto auto;
+        padding-bottom: 10%;
     }
 
     .skillType {
@@ -67,5 +68,6 @@
 @media (max-width: 600px) {
     .grid {
         grid-template-columns: auto auto;
+        padding-bottom: 15%;
     }
 }
