@@ -29,25 +29,13 @@
     justify-content: center;
 }
 
-.progLangImg {
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(0, 0, 0);
-    border-radius: 50%;
-    width: 75px;
-    height: 75px;
-}
-
+.progLangImg,
 .softwareImg {
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(0, 0, 0);
     width: 75px;
     height: 75px;
-}
-
-.progLangIcon {
-    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .label {
