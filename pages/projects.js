@@ -12,8 +12,8 @@ function ProjectsSection() {
         {
             projectName: "Clock Wisdom",
             description: "This web-app was designed using ...",
-            source: "/images/inProgress.png",
-            url: "https://github.com/Rav91/Clock-Wisdom"
+            source: "/images/clockwisdomimg.png",
+            url: "https://github.com/tislam35/Clock-Wisdom"
         }
     );
 
@@ -21,7 +21,7 @@ function ProjectsSection() {
         {
             projectName: "Team Me",
             description: "This desktop application was developed using ...",
-            source: "/images/inProgress.png",
+            source: "/images/teammeimg.png",
             url: "https://github.com/tislam35/TeamMe"
         }
     );
@@ -30,7 +30,7 @@ function ProjectsSection() {
         {
             projectName: "Currency Converter",
             description: "This android application was developed using ...",
-            source: "/images/inProgress.png",
+            source: "/images/currencyconverterimg.png",
             url: "https://github.com/tislam35/Currency_Converter"
         }
     );
@@ -58,7 +58,7 @@ function ProjectsSection() {
             projectName: "Climate Change Solutions",
             description: "This project models the ARIMA based forecast of air pollution and offers several solutions with\
                         models visualizing the effectiveness of each ...",
-            source: "/images/inProgress.png",
+            source: "/images/ccsimg.png",
             url: "https://github.com/tislam35/Climate_Change_Solutions"
         }
     );
@@ -67,7 +67,7 @@ function ProjectsSection() {
         {
             projectName: "This Website!",
             description: "I developed this website using React, NextJS, JavaScript, HTML, and CSS ...",
-            source: "/images/inProgress.png",
+            source: "/images/thissiteimg.png",
             url: "https://github.com/tislam35/My-Website"
         }
     );
