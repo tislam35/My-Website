@@ -46,7 +46,8 @@
 
 #progLangContainer {
     flex: 1 1 auto;
-    background-color: rgb(155, 155, 155);
+    background-color: rgb(200, 200, 200);
+    border-bottom: 3px dashed;
 }
 
 #softwareContainer {

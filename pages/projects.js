@@ -11,8 +11,12 @@ function ProjectsSection() {
     projects.push(
         {
             projectName: "Clock Wisdom",
-            description: "This web-app was designed using ...",
+            description: "This web-app allows organizations to easily manage all their employees by providing a simple and effective UI \
+            for keeping track of clock-in and clock-out times, sick days, hourly pay, hours worked, and length of lunch breaks. The app also \
+            features a system for sick day requests and provides a summary of each worker's timeliness, simplifying any performance review.",
             source: "/images/clockwisdomimg.png",
+            languages: "JavaScript, Python, CSS, HTML",
+            software: "React, Flask, SQLAlchemy",
             url: "https://github.com/tislam35/Clock-Wisdom"
         }
     );
@@ -22,6 +26,8 @@ function ProjectsSection() {
             projectName: "Team Me",
             description: "This desktop application was developed using ...",
             source: "/images/teammeimg.png",
+            languages: "test",
+            software: "test",
             url: "https://github.com/tislam35/TeamMe"
         }
     );
@@ -31,6 +37,8 @@ function ProjectsSection() {
             projectName: "Currency Converter",
             description: "This android application was developed using ...",
             source: "/images/currencyconverterimg.png",
+            languages: "test",
+            software: "test",
             url: "https://github.com/tislam35/Currency_Converter"
         }
     );
@@ -39,7 +47,9 @@ function ProjectsSection() {
         {
             projectName: "Galactic Conquest",
             description: "This game was developed using ...",
-            source: "/images/inProgress.png",
+            source: "/images/gcimg.png",
+            languages: "test",
+            software: "test",
             url: "https://github.com/tislam35/Simple_Java_Game"
         }
     );
@@ -48,7 +58,9 @@ function ProjectsSection() {
         {
             projectName: "Air Quality Visualization",
             description: "This project models the progression of air pollution throughout New York using ...",
-            source: "/images/inProgress.png",
+            source: "/images/aqvimg.png",
+            languages: "test",
+            software: "test",
             url: "https://github.com/tislam35/Human-Perception-Project"
         }
     );
@@ -59,6 +71,8 @@ function ProjectsSection() {
             description: "This project models the ARIMA based forecast of air pollution and offers several solutions with\
                         models visualizing the effectiveness of each ...",
             source: "/images/ccsimg.png",
+            languages: "test",
+            software: "test",
             url: "https://github.com/tislam35/Climate_Change_Solutions"
         }
     );
@@ -68,6 +82,8 @@ function ProjectsSection() {
             projectName: "This Website!",
             description: "I developed this website using React, NextJS, JavaScript, HTML, and CSS ...",
             source: "/images/thissiteimg.png",
+            languages: "test",
+            software: "test",
             url: "https://github.com/tislam35/My-Website"
         }
     );
@@ -81,11 +97,15 @@ function ProjectsSection() {
         let navOptions = document.getElementsByClassName("projectNav");
         let projectName = document.getElementById("projectName");
         let description = document.getElementById("projectDescription");
+        let languages = document.getElementById("projectLanguagesList");
+        let software = document.getElementById("projectSoftwareList");
         let url = document.getElementById("projectLink");
 
         //populating components with info for the selected project
         projectName.textContent = projects[index].projectName;
         description.textContent = projects[index].description;
+        languages.textContent = projects[index].languages;
+        software.textContent = projects[index].software;
         url.href = projects[index].url;
 
         //checking the correct radio option
@@ -117,6 +137,10 @@ function ProjectsSection() {
                 </div>
                 <h2 id="projectName"></h2>
                 <p id="projectDescription"></p>
+                <h4 id="projectLanguages">Languages</h4>
+                <p id="projectLanguagesList">None</p>
+                <h4 id="projectSoftware">Software/Frameworks/Libraries</h4>
+                <p id="projectSoftwareList">None</p>
                 <a id="projectLink" href="https://www.google.com/">
                     <button className="link">Learn More</button>
                 </a>
