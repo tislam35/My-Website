@@ -24,10 +24,13 @@ function ProjectsSection() {
     projects.push(
         {
             projectName: "Team Me",
-            description: "This desktop application was developed using ...",
+            description: "This desktop application provides a simple social platform for all engineers and developers to find and collaborate with others \
+            on meaningful and interesting projects. The application allows unregistered users to either browse existing groups and projects or \
+            sign up for an account. Registered users can customize their own profile and apply to any open groups where they can schedule meetings, \
+            compliment or report other members, and plan out projects.",
             source: "/images/teammeimg.png",
-            languages: "test",
-            software: "test",
+            languages: "Python",
+            software: "PyQt5",
             url: "https://github.com/tislam35/TeamMe"
         }
     );
@@ -35,10 +38,12 @@ function ProjectsSection() {
     projects.push(
         {
             projectName: "Currency Converter",
-            description: "This android application was developed using ...",
+            description: "This android application provides a convenient way for users anywhere in the world to obtain an accurate and up-to-date approximation \
+            of what their money is worth in over 30 different currency types. The application employs calls to modern currency exchange rate APIs for conversion calculations \
+            and utilizes android's storage system for access to the last obtained rates when no service or internet is available.",
             source: "/images/currencyconverterimg.png",
-            languages: "test",
-            software: "test",
+            languages: "Java",
+            software: "Android Studio",
             url: "https://github.com/tislam35/Currency_Converter"
         }
     );
@@ -46,10 +51,11 @@ function ProjectsSection() {
     projects.push(
         {
             projectName: "Galactic Conquest",
-            description: "This game was developed using ...",
+            description: "This game features a spaceship travelling through space in a side-scroller format while collecting points and avoiding obstacles. \
+            The games's pace and difficulty increases exponentially as the user progresses through each level.",
             source: "/images/gcimg.png",
-            languages: "test",
-            software: "test",
+            languages: "Java",
+            software: "Netbeans",
             url: "https://github.com/tislam35/Simple_Java_Game"
         }
     );
@@ -57,10 +63,12 @@ function ProjectsSection() {
     projects.push(
         {
             projectName: "Air Quality Visualization",
-            description: "This project models the progression of air pollution throughout New York using ...",
+            description: "This project models the progression of air pollution throughout New York using recorded air data from monitoring \
+            sources throughout the state. A focus on the fine particulate matter concentration (PM2.5) is made for analysis on air quality in \
+            comparison to other socioeconoimic variables. ",
             source: "/images/aqvimg.png",
-            languages: "test",
-            software: "test",
+            languages: "Python",
+            software: "Plotly Dash, Tableau",
             url: "https://github.com/tislam35/Human-Perception-Project"
         }
     );
@@ -68,22 +76,26 @@ function ProjectsSection() {
     projects.push(
         {
             projectName: "Climate Change Solutions",
-            description: "This project models the ARIMA based forecast of air pollution and offers several solutions with\
-                        models visualizing the effectiveness of each ...",
+            description: "This project models the expected trajectory of global air pollution in comparison to \
+            pollution forcasts with various solutions implemented. ARIMA based modelling with data dating back to 1965 is used to obtain reliable forcasts. \
+            Visualizations are provided to demonstrate the effectiveness of each solution offered.",
             source: "/images/ccsimg.png",
-            languages: "test",
-            software: "test",
+            languages: "Python",
+            software: "Plotly",
             url: "https://github.com/tislam35/Climate_Change_Solutions"
         }
     );
 
     projects.push(
         {
-            projectName: "This Website!",
-            description: "I developed this website using React, NextJS, JavaScript, HTML, and CSS ...",
+            projectName: "This Website",
+            description: "I developed this website as a fun little side-project to further practice my JavaScript, HTML, and CSS skills while \
+            getting more hands-on experience using React and NextJS. All components and UI designs seen here were made from scratch using Figma \
+            to plan the layout before writing any code. As a work in progress, I plan on updating the color palette of the site to be more vibrant and welcoming; \
+            in addition to improving UI designs and adding animations using TailwindCSS in the future.",
             source: "/images/thissiteimg.png",
-            languages: "test",
-            software: "test",
+            languages: "JavaScript, HTML, CSS",
+            software: "React, NextJS, Figma, Vercel",
             url: "https://github.com/tislam35/My-Website"
         }
     );
