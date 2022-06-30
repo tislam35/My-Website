@@ -11,8 +11,8 @@ function ExperienceSection() {
                 <h3 className="entryPosition">Full Stack Developer</h3>
                 <h4 className="entryDateMobile">October 2021 - Present</h4>
                 <p className="entryDescription">
-                    As a full stack developer at Profit Decoder I designed and structured the backend database to satisfy third normal form using Xano. 
-                    I also developed RESTful API endpoints and implemented code for front-end functioning using HTML, CSS, and JavaScript in Webflow.
+                    As a full stack developer at Profit Decoder I designed a backend database with an optimization for scalability while minimizing redundancy. 
+                    I also developed RESTful API endpoints and implemented code that added front-end functioning using HTML, CSS, and JavaScript.
                 </p>
             </div>
             <div className="entry right">
